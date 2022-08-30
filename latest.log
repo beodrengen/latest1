@@ -1,0 +1,971 @@
+[30Aug2022 02:38:22.135] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.1.3, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[30Aug2022 02:38:22.161] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.1 by Oracle Corporation; OS Linux arch amd64 version 4.15.0-176-generic
+[30Aug2022 02:38:22.739] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mch/multicraft/servers/server203832/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[30Aug2022 02:38:24.668] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/mch/multicraft/servers/server203832/libraries/net/minecraftforge/fmlcore/1.19.2-43.1.3/fmlcore-1.19.2-43.1.3.jar is missing mods.toml file
+[30Aug2022 02:38:24.670] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/mch/multicraft/servers/server203832/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.1.3/javafmllanguage-1.19.2-43.1.3.jar is missing mods.toml file
+[30Aug2022 02:38:24.671] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/mch/multicraft/servers/server203832/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.1.3/lowcodelanguage-1.19.2-43.1.3.jar is missing mods.toml file
+[30Aug2022 02:38:24.673] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/mch/multicraft/servers/server203832/libraries/net/minecraftforge/mclanguage/1.19.2-43.1.3/mclanguage-1.19.2-43.1.3.jar is missing mods.toml file
+[30Aug2022 02:38:24.969] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[30Aug2022 02:38:34.191] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Aug2022 02:38:35.144] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.aizistral.nochatreports.MixinConnector]
+[30Aug2022 02:38:35.147] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30Aug2022 02:38:35.321] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Aug2022 02:38:35.523] [main/WARN] [mixin/]: Reference map 'everycomp.refmap.json' for everycomp-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Aug2022 02:38:35.526] [main/WARN] [mixin/]: Reference map 'everycomp.refmap.json' for everycomp.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Aug2022 02:38:38.931] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[30Aug2022 02:38:38.931] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found deeperdarker.mixins.json:PhantomRendererMixin
+[30Aug2022 02:38:39.425] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[30Aug2022 02:38:39.450] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER)
+[30Aug2022 02:38:39.451] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.LocalPlayer was not found ars_nouveau.mixins.json:elytra.ClientElytraMixin
+[30Aug2022 02:38:40.472] [main/INFO] [mixin/]: Mixing MainMixin from iceberg.mixins.json into net.minecraft.server.Main
+[30Aug2022 02:38:41.567] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[30Aug2022 02:38:43.193] [main/WARN] [mixin/]: @Inject(@At("HEAD")) Shift.BY=1 on blueprint.mixins.json:EntityMixin::handler$zkj000$baseTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[30Aug2022 02:38:44.014] [main/INFO] [mixin/]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.world.entity.player.Player
+[30Aug2022 02:38:47.503] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[30Aug2022 02:38:51.787] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[30Aug2022 02:38:51.886] [modloading-worker-0/INFO] [dev.wuffs.bcc.BCC/]: Better Compatibility Checker loading
+[30Aug2022 02:38:51.890] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.19.2-1.5.0.6 is initializing. Have fun!
+[30Aug2022 02:38:52.062] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.075] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.075] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.075] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.086] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.087] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.087] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[30Aug2022 02:38:52.404] [modloading-worker-0/INFO] [Void Totem/]: Loading up Void Totem (Forge)
+[30Aug2022 02:38:52.597] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod tradingpost
+[30Aug2022 02:38:52.597] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
+[30Aug2022 02:38:52.597] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easymagic
+[30Aug2022 02:38:53.047] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 4 KiwiModule annotations
+[30Aug2022 02:38:53.231] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.3, for MC 1.19.2 with MCP 20220805.130853
+[30Aug2022 02:38:53.231] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.3 Initialized
+[30Aug2022 02:38:53.265] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Loading config...
+[30Aug2022 02:38:53.299] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod magnumtorch
+[30Aug2022 02:38:53.369] [modloading-worker-0/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Loaded EveryCompat Mcwbridges Module
+[30Aug2022 02:38:53.370] [modloading-worker-0/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Loaded EveryCompat Farmersdelight Module
+[30Aug2022 02:38:53.469] [modloading-worker-0/INFO] [Calio/]: Calio 1.19.2-1.6.0.3 initializing...
+[30Aug2022 02:38:53.587] [modloading-worker-0/INFO] [paintings/]: loading json file and contents for paintings.
+[30Aug2022 02:38:53.587] [modloading-worker-0/INFO] [paintings/]: Adding base paintings
+[30Aug2022 02:38:53.588] [modloading-worker-0/INFO] [paintings/]: resolving paintings.json ...
+[30Aug2022 02:38:53.687] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30Aug2022 02:38:53.666] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_blue , 16 x 16
+[30Aug2022 02:38:53.690] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_rainbow , 16 x 16
+[30Aug2022 02:38:53.690] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_red , 16 x 16
+[30Aug2022 02:38:53.690] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_sunset , 16 x 16
+[30Aug2022 02:38:53.690] [modloading-worker-0/INFO] [paintings/]: Loaded json painting arachnophobe , 32 x 16
+[30Aug2022 02:38:53.690] [modloading-worker-0/INFO] [paintings/]: Loaded json painting barn_owl , 32 x 16
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting big_z , 16 x 16
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting blue_bird , 32 x 16
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting bluesclues , 32 x 16
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting borgia , 16 x 32
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cane , 16 x 32
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat_black , 16 x 16
+[30Aug2022 02:38:53.691] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat_gray , 16 x 16
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat_orange , 16 x 16
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat , 32 x 16
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting colorful_squares , 32 x 16
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting crest , 32 x 16
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting danger_zone , 32 x 32
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting decorative_gun , 32 x 16
+[30Aug2022 02:38:53.692] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_down , 32 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_up , 32 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_left , 32 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_right , 32 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_bat , 16 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_chicken , 16 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_cow , 16 x 16
+[30Aug2022 02:38:53.693] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_creeper , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_dog , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_enderman , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_pig , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_pigman , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_silverfish , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_skeleton , 16 x 16
+[30Aug2022 02:38:53.694] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_squid , 16 x 16
+[30Aug2022 02:38:53.695] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_zombie , 16 x 16
+[30Aug2022 02:38:53.695] [modloading-worker-0/INFO] [paintings/]: Loaded json painting fishes , 32 x 16
+[30Aug2022 02:38:53.695] [modloading-worker-0/INFO] [paintings/]: Loaded json painting flowers , 32 x 16
+[30Aug2022 02:38:53.695] [modloading-worker-0/INFO] [paintings/]: Loaded json painting fruits , 32 x 16
+[30Aug2022 02:38:53.695] [modloading-worker-0/INFO] [paintings/]: Loaded json painting ghost , 16 x 32
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting glowlamp , 32 x 32
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting glowstone_hourglass , 16 x 32
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting iluvmc , 32 x 16
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting link , 32 x 16
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting mine_prosperity , 32 x 16
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting no_trespassing_for_mobs , 32 x 16
+[30Aug2022 02:38:53.696] [modloading-worker-0/INFO] [paintings/]: Loaded json painting ocelot , 16 x 16
+[30Aug2022 02:38:53.697] [modloading-worker-0/INFO] [paintings/]: Loaded json painting penguin , 32 x 16
+[30Aug2022 02:38:53.697] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pig_on_a_cliff , 32 x 32
+[30Aug2022 02:38:53.697] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pkmn_blue , 32 x 16
+[30Aug2022 02:38:53.697] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pkmn_red , 32 x 16
+[30Aug2022 02:38:53.697] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pkmn_green , 32 x 16
+[30Aug2022 02:38:53.697] [modloading-worker-0/INFO] [paintings/]: Loaded json painting plains_hut , 32 x 16
+[30Aug2022 02:38:53.698] [modloading-worker-0/INFO] [paintings/]: Loaded json painting portrait_2 , 16 x 16
+[30Aug2022 02:38:53.698] [modloading-worker-0/INFO] [paintings/]: Loaded json painting portrait , 32 x 32
+[30Aug2022 02:38:53.698] [modloading-worker-0/INFO] [paintings/]: Loaded json painting prison , 16 x 32
+[30Aug2022 02:38:53.698] [modloading-worker-0/INFO] [paintings/]: Loaded json painting prosperity , 16 x 32
+[30Aug2022 02:38:53.705] [modloading-worker-0/INFO] [paintings/]: Loaded json painting rest , 32 x 16
+[30Aug2022 02:38:53.706] [modloading-worker-0/INFO] [paintings/]: Loaded json painting skeleton , 16 x 32
+[30Aug2022 02:38:53.741] [modloading-worker-0/INFO] [paintings/]: Loaded json painting sky , 32 x 32
+[30Aug2022 02:38:53.741] [modloading-worker-0/INFO] [paintings/]: Loaded json painting skyblock , 32 x 32
+[30Aug2022 02:38:53.741] [modloading-worker-0/INFO] [paintings/]: Loaded json painting snake , 16 x 32
+[30Aug2022 02:38:53.741] [modloading-worker-0/INFO] [paintings/]: Loaded json painting snow_landscape , 32 x 16
+[30Aug2022 02:38:53.741] [modloading-worker-0/INFO] [paintings/]: Loaded json painting subaraki , 32 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting synth_city , 16 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting tapistry_a , 32 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting tapistry_b , 16 x 32
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting tapistry_purple , 16 x 32
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting torched , 32 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting waterfall , 32 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting whale , 32 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting wheat_field , 32 x 16
+[30Aug2022 02:38:53.742] [modloading-worker-0/INFO] [paintings/]: Loaded json painting wolf_in_wheat , 32 x 16
+[30Aug2022 02:38:53.750] [modloading-worker-0/WARN] [paintings/]: ************************************
+[30Aug2022 02:38:53.751] [modloading-worker-0/WARN] [paintings/]: !*!*!*!*!
+[30Aug2022 02:38:53.751] [modloading-worker-0/ERROR] [paintings/]: A fatal error occurred reading the resource pack directory
+[30Aug2022 02:38:53.751] [modloading-worker-0/ERROR] [paintings/]: SKIPPING ENTIRE PROCESS
+[30Aug2022 02:38:53.751] [modloading-worker-0/WARN] [paintings/]: !*!*!*!*!
+[30Aug2022 02:38:53.752] [modloading-worker-0/WARN] [paintings/]: ************************************
+[30Aug2022 02:38:53.752] [modloading-worker-0/WARN] [paintings/]: java.nio.file.NoSuchFileException: ./resourcepacks
+[30Aug2022 02:38:53.780] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[30Aug2022 02:38:54.131] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[30Aug2022 02:38:54.287] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
+[30Aug2022 02:38:54.288] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
+[30Aug2022 02:38:54.289] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
+[30Aug2022 02:38:54.289] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
+[30Aug2022 02:38:54.361] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
+[30Aug2022 02:38:54.365] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
+[30Aug2022 02:38:54.369] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
+[30Aug2022 02:38:54.371] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
+[30Aug2022 02:38:54.376] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
+[30Aug2022 02:38:54.377] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
+[30Aug2022 02:38:54.377] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
+[30Aug2022 02:38:54.377] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
+[30Aug2022 02:38:54.377] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
+[30Aug2022 02:38:54.378] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
+[30Aug2022 02:38:54.379] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
+[30Aug2022 02:38:54.380] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
+[30Aug2022 02:38:54.381] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
+[30Aug2022 02:38:54.383] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
+[30Aug2022 02:38:54.386] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
+[30Aug2022 02:38:54.391] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[30Aug2022 02:38:54.394] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[30Aug2022 02:38:54.394] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[30Aug2022 02:38:54.611] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[30Aug2022 02:38:54.841] [ForkJoinPool.commonPool-worker-1/INFO] [friendsandfoes/]: [Friends&Foes] An update is available! You're using 1.5.6 version but the latest version is 1.5.8!
+[30Aug2022 02:38:55.291] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.19.2-2.3.4.4 has initialized. Ready to power up your game!
+[30Aug2022 02:38:58.398] [main/INFO] [corail_woodcutter/]: missing extension for "Oh Biome You'll Go" recipes
+[30Aug2022 02:39:01.465] [main/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Registering Compat Wood Blocks
+[30Aug2022 02:39:02.431] [main/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Registering Compat Leaves Blocks
+[30Aug2022 02:39:02.432] [main/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Registered 336 compat blocks making up 6.3939104% of total blocks registered
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant abstract_blue
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant abstract_rainbow
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant abstract_red
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant abstract_sunset
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant arachnophobe
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant barn_owl
+[30Aug2022 02:39:02.679] [main/INFO] [paintings/]: Registered variant big_z
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant blue_bird
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant bluesclues
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant borgia
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant cane
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant cat_black
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant cat_gray
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant cat_orange
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant cat
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant colorful_squares
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant crest
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant danger_zone
+[30Aug2022 02:39:02.680] [main/INFO] [paintings/]: Registered variant decorative_gun
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant exit_down
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant exit_up
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant exit_left
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant exit_right
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant face_bat
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant face_chicken
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant face_cow
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant face_creeper
+[30Aug2022 02:39:02.681] [main/INFO] [paintings/]: Registered variant face_dog
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_enderman
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_pig
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_pigman
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_silverfish
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_skeleton
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_squid
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant face_zombie
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant fishes
+[30Aug2022 02:39:02.682] [main/INFO] [paintings/]: Registered variant flowers
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant fruits
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant ghost
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant glowlamp
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant glowstone_hourglass
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant iluvmc
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant link
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant mine_prosperity
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant no_trespassing_for_mobs
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant ocelot
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant penguin
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant pig_on_a_cliff
+[30Aug2022 02:39:02.683] [main/INFO] [paintings/]: Registered variant pkmn_blue
+[30Aug2022 02:39:02.684] [main/INFO] [paintings/]: Registered variant pkmn_red
+[30Aug2022 02:39:02.684] [main/INFO] [paintings/]: Registered variant pkmn_green
+[30Aug2022 02:39:02.684] [main/INFO] [paintings/]: Registered variant plains_hut
+[30Aug2022 02:39:02.684] [main/INFO] [paintings/]: Registered variant portrait_2
+[30Aug2022 02:39:02.684] [main/INFO] [paintings/]: Registered variant portrait
+[30Aug2022 02:39:02.684] [main/INFO] [paintings/]: Registered variant prison
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant prosperity
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant rest
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant skeleton
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant sky
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant skyblock
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant snake
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant snow_landscape
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant subaraki
+[30Aug2022 02:39:02.685] [main/INFO] [paintings/]: Registered variant synth_city
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant tapistry_a
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant tapistry_b
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant tapistry_purple
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant torched
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant waterfall
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant whale
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant wheat_field
+[30Aug2022 02:39:02.686] [main/INFO] [paintings/]: Registered variant wolf_in_wheat
+[30Aug2022 02:39:04.571] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityLeafcutterAnt from class com.github.alexthe666.alexsmobs.entity.EntityDevilsHolePupfish
+[30Aug2022 02:39:04.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityMantisShrimp from class com.github.alexthe666.alexsmobs.entity.EntitySkelewag
+[30Aug2022 02:39:04.626] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.mrbysco.raided.entity.Inquisitor from class com.mrbysco.raided.entity.Necromancer
+[30Aug2022 02:39:05.420] [modloading-worker-0/INFO] [dev.wuffs.bcc.BCC/]: Better Compatibility Checker setting up
+[30Aug2022 02:39:05.473] [Modding Legacy/conjurer_illager/Supporters thread/INFO] [ModdingLegacy/conjurer_illager/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[30Aug2022 02:39:05.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Starting version check at https://raw.githubusercontent.com/hammertater/treechop/main/update.json
+[30Aug2022 02:39:05.634] [Modding Legacy/conjurer_illager/Supporters thread/INFO] [ModdingLegacy/conjurer_illager/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[30Aug2022 02:39:05.641] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/end-biomes.json5" was read.
+[30Aug2022 02:39:05.713] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/nether-biomes.json5" was read.
+[30Aug2022 02:39:05.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Found status: BETA Current: 0.15.8 Target: null
+[30Aug2022 02:39:05.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Starting version check at http://changelogs.moddinglegacy.com/blue-skies.json
+[30Aug2022 02:39:05.922] [modloading-worker-0/INFO] [mixin/]: Mixing PlayerAdvancementsMixin from iceberg.mixins.json into net.minecraft.server.PlayerAdvancements
+[30Aug2022 02:39:05.936] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[30Aug2022 02:39:05.946] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[30Aug2022 02:39:05.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Found status: BETA Current: 1.3.19 Target: null
+[30Aug2022 02:39:05.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[30Aug2022 02:39:05.988] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/end_surface_rules.json5" was read.
+[30Aug2022 02:39:06.005] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[30Aug2022 02:39:06.130] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/growing-patterns.json5" was read.
+[30Aug2022 02:39:06.197] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/trades.json5" was read.
+[30Aug2022 02:39:06.271] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/settings.json5" was read.
+[30Aug2022 02:39:06.275] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/biomepedia.json5" was read.
+[30Aug2022 02:39:06.321] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: Created compressed zip back up for "/home/mch/multicraft/servers/server203832/config/byg" in "/home/mch/multicraft/servers/server203832/config/byg/backups/last_working_configs_backup.zip"
+[30Aug2022 02:39:06.331] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.1 Target: null
+[30Aug2022 02:39:06.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+[30Aug2022 02:39:06.568] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1d7bd920]
+[30Aug2022 02:39:06.575] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.12+6240-87f4ae1) is loaded
+[30Aug2022 02:39:06.625] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished mod setup in: 25 ms
+[30Aug2022 02:39:06.635] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.1.4 Target: 16.1.4
+[30Aug2022 02:39:06.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[30Aug2022 02:39:06.637] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/Sheets for invalid dist DEDICATED_SERVER
+[30Aug2022 02:39:06.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.19-1.5.1 Target: null
+[30Aug2022 02:39:06.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[30Aug2022 02:39:06.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.0.1 Target: null
+[30Aug2022 02:39:06.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[30Aug2022 02:39:06.660] [main/INFO] [journeymap/]: Initializing Packet Registries
+[30Aug2022 02:39:06.713] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[30Aug2022 02:39:06.713] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[30Aug2022 02:39:06.714] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid_type.travelersbackpack.potion with the ID 2
+[30Aug2022 02:39:06.714] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for fluid_type.minecraft.milk with the ID 3
+[30Aug2022 02:39:06.715] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[30Aug2022 02:39:06.732] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[30Aug2022 02:39:06.736] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[30Aug2022 02:39:06.795] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[30Aug2022 02:39:06.796] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[30Aug2022 02:39:06.796] [main/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 1 for type OVERWORLD
+[30Aug2022 02:39:06.809] [main/INFO] [potionstudios.byg.BYG/]: Initializing BYG network...
+[30Aug2022 02:39:06.816] [main/INFO] [potionstudios.byg.BYG/]: Initialized BYG network!
+[30Aug2022 02:39:06.828] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 2 for type OVERWORLD
+[30Aug2022 02:39:06.829] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 3 for type OVERWORLD
+[30Aug2022 02:39:06.830] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 4 for type OVERWORLD
+[30Aug2022 02:39:06.831] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 5 for type OVERWORLD
+[30Aug2022 02:39:06.870] [modloading-worker-0/INFO] [com.choicetheorem.imst.imst/]: Got IMC []
+[30Aug2022 02:39:06.894] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov/]: Got IMC []
+[30Aug2022 02:39:06.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: UP_TO_DATE Current: 4.2.1392 Target: null
+[30Aug2022 02:39:06.912] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 30 compatible attributes.
+[30Aug2022 02:39:06.913] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[30Aug2022 02:39:06.915] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 30 values from config.
+[30Aug2022 02:39:06.929] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.common.compat.Jade
+[30Aug2022 02:39:06.931] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 30 entries.
+[30Aug2022 02:39:06.931] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 30 attributes.
+[30Aug2022 02:39:06.948] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[30Aug2022 02:39:06.951] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[30Aug2022 02:39:06.951] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[30Aug2022 02:39:06.951] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[30Aug2022 02:39:06.961] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.forge.ForgePlugin
+[30Aug2022 02:39:06.963] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[30Aug2022 02:39:06.993] [main/INFO] [potionstudios.byg.BYG/]: BYG: Compostible Blocks Added!
+[30Aug2022 02:39:06.994] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added tillables!
+[30Aug2022 02:39:06.997] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added Flammables!
+[30Aug2022 02:39:06.998] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added strippable Blocks...
+[30Aug2022 02:39:07.000] [main/INFO] [potionstudios.byg.BYG/]: BYG: "Load Complete" Event Complete!
+[30Aug2022 02:39:07.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.19.2-1.0.0 Target: null
+[30Aug2022 02:39:07.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[30Aug2022 02:39:07.842] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: BETA Current: 2.0.3 Target: null
+[30Aug2022 02:39:07.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [highlighter] Starting version check at https://mc-update-check.anthonyhilyard.com/521590
+[30Aug2022 02:39:08.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [highlighter] Found status: UP_TO_DATE Current: 1.1.4 Target: null
+[30Aug2022 02:39:08.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corail_woodcutter] Starting version check at https://raw.githubusercontent.com/Corail31/trash/master/update_woodcutter.json
+[30Aug2022 02:39:08.068] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corail_woodcutter] Found status: BETA Current: 2.4.2 Target: null
+[30Aug2022 02:39:08.068] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [runelic] Starting version check at https://updates.blamejared.com/get?n=runelic&gv=1.19.2
+[30Aug2022 02:39:08.157] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.1.3.jar%23217!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.1.3.jar%23217!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[30Aug2022 02:39:08.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettermodsbutton] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettermodsbutton.json
+[30Aug2022 02:39:08.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettermodsbutton] Found status: UP_TO_DATE Current: 4.2.0 Target: null
+[30Aug2022 02:39:08.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkpaintings] Starting version check at https://updates.blamejared.com/get?n=darkpaintings&gv=1.19.2
+[30Aug2022 02:39:08.264] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.1.3.jar%23217!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.1.3.jar%23217!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[30Aug2022 02:39:08.272] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tradingpost] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/tradingpost.json
+[30Aug2022 02:39:08.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tradingpost] Found status: UP_TO_DATE Current: 4.2.0 Target: null
+[30Aug2022 02:39:08.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[30Aug2022 02:39:08.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: OUTDATED Current: 4.3.0 Target: 4.3.1
+[30Aug2022 02:39:08.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[30Aug2022 02:39:08.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 4.2.0 Target: null
+[30Aug2022 02:39:08.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.19.2
+[30Aug2022 02:39:08.393] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.1.3.jar%23217!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.1.3.jar%23217!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[30Aug2022 02:39:08.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [conjurer_illager] Starting version check at http://changelogs.moddinglegacy.com/conjurer-illager.json
+[30Aug2022 02:39:08.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [conjurer_illager] Found status: BETA Current: 1.1.4 Target: null
+[30Aug2022 02:39:08.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [merchantmarkers] Starting version check at https://mc-update-check.anthonyhilyard.com/549275
+[30Aug2022 02:39:08.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [merchantmarkers] Found status: UP_TO_DATE Current: 1.2.3 Target: null
+[30Aug2022 02:39:08.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[30Aug2022 02:39:08.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 5.9.0beta2 Target: 5.9.0beta2
+[30Aug2022 02:39:08.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[30Aug2022 02:39:08.793] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: BETA Current: 8.2.0 Target: null
+[30Aug2022 02:39:08.793] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
+[30Aug2022 02:39:08.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.19-1.6.4 Target: null
+[30Aug2022 02:39:08.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.19.2
+[30Aug2022 02:39:08.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 16.1.2 Target: 16.1.2
+[30Aug2022 02:39:08.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Aug2022 02:39:08.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.1.3 Target: null
+[30Aug2022 02:39:08.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [magnumtorch] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/magnumtorch.json
+[30Aug2022 02:39:08.984] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [magnumtorch] Found status: UP_TO_DATE Current: 4.2.0 Target: null
+[30Aug2022 02:39:08.985] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[30Aug2022 02:39:09.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.0.46 Target: null
+[30Aug2022 02:39:09.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zillagersweararmor] Starting version check at https://raw.githubusercontent.com/seymourimadeit/illagersweararmor/master/update.json
+[30Aug2022 02:39:09.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zillagersweararmor] Found status: BETA Current: 1.2.1 Target: null
+[30Aug2022 02:39:09.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[30Aug2022 02:39:09.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[30Aug2022 02:39:09.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [delightful] Starting version check at https://onvoid.net/delightful/update.json
+[30Aug2022 02:39:09.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [delightful] Found status: BETA Current: 2.1 Target: null
+[30Aug2022 02:39:09.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.19.2
+[30Aug2022 02:39:09.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Found status: BETA Current: 15.0.1 Target: 15.0.1
+[30Aug2022 02:39:32.763] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Aug2022 02:39:53.241] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/mch/multicraft/servers/server203832/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23216!/assets/.mcassetsroot' uses unexpected schema
+[30Aug2022 02:39:53.242] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/mch/multicraft/servers/server203832/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23216!/data/.mcassetsroot' uses unexpected schema
+[30Aug2022 02:39:53.365] [main/INFO] [Open Loader/]: Preparing Data Pack injection.
+[30Aug2022 02:39:53.369] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /home/mch/multicraft/servers/server203832/config/openloader/data/Repurposed_Structures-Farmers_Delight_v4.zip.
+[30Aug2022 02:39:53.370] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /home/mch/multicraft/servers/server203832/config/openloader/data/Repurposed_Structures-Savage_And_Ravage_v4.zip.
+[30Aug2022 02:39:53.371] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /home/mch/multicraft/servers/server203832/config/openloader/data/Repurposed_Structures-Friends_And_Foes-v2.zip.
+[30Aug2022 02:39:53.371] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /home/mch/multicraft/servers/server203832/config/openloader/data/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip.
+[30Aug2022 02:39:53.371] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /home/mch/multicraft/servers/server203832/config/openloader/data/Repurposed_Structures-More_Villagers_v7.zip.
+[30Aug2022 02:39:53.373] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /home/mch/multicraft/servers/server203832/config/openloader/data/dungeons-arise-1-19-v1-1.zip.
+[30Aug2022 02:39:53.374] [main/INFO] [Open Loader/]: Successfully injected 6/6 packs from /home/mch/multicraft/servers/server203832/config/openloader/data.
+[30Aug2022 02:39:55.513] [main/INFO] [net.mehvahdjukaar.every_compat.EveryCompat/]: Generated runtime SERVER_DATA for pack Everycomp Generated Pack in: 1646 ms
+[30Aug2022 02:39:55.573] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 59 ms
+[30Aug2022 02:40:04.895] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[30Aug2022 02:40:05.073] [main/INFO] [Calio/]: CDRM Initialized with 14 registries
+[30Aug2022 02:40:06.599] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/copper_thermal as it's serializer returned null
+[30Aug2022 02:40:06.615] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/osmium_knife as it's serializer returned null
+[30Aug2022 02:40:06.621] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_axe as it's serializer returned null
+[30Aug2022 02:40:06.638] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/kettle/azalea_tea as it's serializer returned null
+[30Aug2022 02:40:06.651] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[30Aug2022 02:40:06.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_axe as it's serializer returned null
+[30Aug2022 02:40:06.667] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:peanut_butter as it's serializer returned null
+[30Aug2022 02:40:06.671] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/invar_thermal as it's serializer returned null
+[30Aug2022 02:40:06.672] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/lead_thermal as it's serializer returned null
+[30Aug2022 02:40:06.673] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/lead_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.701] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_chestplate as it's serializer returned null
+[30Aug2022 02:40:06.707] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/tin_thermal as it's serializer returned null
+[30Aug2022 02:40:06.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/nickel_thermal as it's serializer returned null
+[30Aug2022 02:40:06.718] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:water_sausage as it's serializer returned null
+[30Aug2022 02:40:06.728] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/lapis_lazuli_knife as it's serializer returned null
+[30Aug2022 02:40:06.730] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bronze_thermal as it's serializer returned null
+[30Aug2022 02:40:06.731] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/tin_mekanism as it's serializer returned null
+[30Aug2022 02:40:06.732] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/steel_knife as it's serializer returned null
+[30Aug2022 02:40:06.732] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/copper_copperized as it's serializer returned null
+[30Aug2022 02:40:06.739] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[30Aug2022 02:40:06.771] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:cactus_flesh_from_cactus_block as it's serializer returned null
+[30Aug2022 02:40:06.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/constantan_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.789] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/steel_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:pbj as it's serializer returned null
+[30Aug2022 02:40:06.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:cactus_flesh_from_barrel_cactus as it's serializer returned null
+[30Aug2022 02:40:06.792] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/constantan_thermal as it's serializer returned null
+[30Aug2022 02:40:06.798] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/electrum_knife as it's serializer returned null
+[30Aug2022 02:40:06.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/silver_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.802] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/invar_thermal as it's serializer returned null
+[30Aug2022 02:40:06.812] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create:rose_quartz_block_from_rose_quartz_stonecutting as it's serializer returned null
+[30Aug2022 02:40:06.812] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/lead_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.813] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_shovel as it's serializer returned null
+[30Aug2022 02:40:06.873] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/tin_thermal as it's serializer returned null
+[30Aug2022 02:40:06.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_leggings as it's serializer returned null
+[30Aug2022 02:40:06.879] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_chestplate as it's serializer returned null
+[30Aug2022 02:40:06.894] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_leggings as it's serializer returned null
+[30Aug2022 02:40:06.894] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:peanut_butter_cookie as it's serializer returned null
+[30Aug2022 02:40:06.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/silver_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.902] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:green_tea_leaves_from_green_tea_leaf as it's serializer returned null
+[30Aug2022 02:40:06.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/constantan_knife as it's serializer returned null
+[30Aug2022 02:40:06.904] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_shovel as it's serializer returned null
+[30Aug2022 02:40:06.907] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/lavender_tea as it's serializer returned null
+[30Aug2022 02:40:06.914] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/osmium_mekanism as it's serializer returned null
+[30Aug2022 02:40:06.920] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/invar_knife as it's serializer returned null
+[30Aug2022 02:40:06.923] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/obsidian_infused_enderite_knife_smithing as it's serializer returned null
+[30Aug2022 02:40:06.931] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/brass_knife as it's serializer returned null
+[30Aug2022 02:40:06.935] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create:sandpaper_polishing/rose_quartz as it's serializer returned null
+[30Aug2022 02:40:06.936] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/bronze_knife as it's serializer returned null
+[30Aug2022 02:40:06.949] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/black_opal_knife as it's serializer returned null
+[30Aug2022 02:40:06.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:cactus_flesh_from_saguaro_cactus as it's serializer returned null
+[30Aug2022 02:40:06.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/rock_candy as it's serializer returned null
+[30Aug2022 02:40:06.979] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/nickel_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_hoe as it's serializer returned null
+[30Aug2022 02:40:06.986] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/tin_mekanism as it's serializer returned null
+[30Aug2022 02:40:06.988] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/electrum_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:06.989] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_pickaxe as it's serializer returned null
+[30Aug2022 02:40:06.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/large_amethyst_knife as it's serializer returned null
+[30Aug2022 02:40:06.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:cactus_flesh_from_barrel_cactus_flowered as it's serializer returned null
+[30Aug2022 02:40:06.997] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/constantan_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:07.034] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/osmium_mekanism as it's serializer returned null
+[30Aug2022 02:40:07.038] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_boots as it's serializer returned null
+[30Aug2022 02:40:07.042] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bronze_thermal as it's serializer returned null
+[30Aug2022 02:40:07.042] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/chunk_nugget as it's serializer returned null
+[30Aug2022 02:40:07.055] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/copper_copperized as it's serializer returned null
+[30Aug2022 02:40:07.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/refined_glowstone_knife as it's serializer returned null
+[30Aug2022 02:40:07.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_pickaxe as it's serializer returned null
+[30Aug2022 02:40:07.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/electrum_thermal as it's serializer returned null
+[30Aug2022 02:40:07.097] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/nickel_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:07.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/silver_thermal as it's serializer returned null
+[30Aug2022 02:40:07.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_sword as it's serializer returned null
+[30Aug2022 02:40:07.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/steel_mekanism as it's serializer returned null
+[30Aug2022 02:40:07.114] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_hoe as it's serializer returned null
+[30Aug2022 02:40:07.139] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/copper_thermal as it's serializer returned null
+[30Aug2022 02:40:07.140] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/tin_knife as it's serializer returned null
+[30Aug2022 02:40:07.140] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/constantan_thermal as it's serializer returned null
+[30Aug2022 02:40:07.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/steel_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:07.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bronze_mekanism as it's serializer returned null
+[30Aug2022 02:40:07.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:apple_pie as it's serializer returned null
+[30Aug2022 02:40:07.150] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_helmet as it's serializer returned null
+[30Aug2022 02:40:07.157] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/nickel_thermal as it's serializer returned null
+[30Aug2022 02:40:07.159] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/field_salad as it's serializer returned null
+[30Aug2022 02:40:07.162] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/copper_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:07.168] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[30Aug2022 02:40:07.179] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/lead_thermal as it's serializer returned null
+[30Aug2022 02:40:07.180] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/electrum_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:07.181] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/lead_knife as it's serializer returned null
+[30Aug2022 02:40:07.182] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bronze_mekanism as it's serializer returned null
+[30Aug2022 02:40:07.201] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/nickel_knife as it's serializer returned null
+[30Aug2022 02:40:07.202] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/electrum_thermal as it's serializer returned null
+[30Aug2022 02:40:07.225] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/enderite_knife_smithing as it's serializer returned null
+[30Aug2022 02:40:07.228] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:sweet_berry_jam as it's serializer returned null
+[30Aug2022 02:40:07.229] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sprout:glow_berry_jam as it's serializer returned null
+[30Aug2022 02:40:07.232] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/chunkwich as it's serializer returned null
+[30Aug2022 02:40:07.233] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:clover_honey as it's serializer returned null
+[30Aug2022 02:40:07.233] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/silver_knife as it's serializer returned null
+[30Aug2022 02:40:07.234] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/silver_thermal as it's serializer returned null
+[30Aug2022 02:40:07.236] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_helmet as it's serializer returned null
+[30Aug2022 02:40:07.239] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe biomemakeover:glowshroom_stew as it's serializer returned null
+[30Aug2022 02:40:07.289] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:chopped_clover_from_huge_clover_petal as it's serializer returned null
+[30Aug2022 02:40:07.292] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/refined_obsidian_knife as it's serializer returned null
+[30Aug2022 02:40:07.292] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/bone/bone_meal_from_blasting_boots as it's serializer returned null
+[30Aug2022 02:40:07.296] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/steel_mekanism as it's serializer returned null
+[30Aug2022 02:40:07.297] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:chopped_clover as it's serializer returned null
+[30Aug2022 02:40:07.313] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:food/kettle/lavender_tea as it's serializer returned null
+[30Aug2022 02:40:07.314] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/smelting/bone/bone_meal_from_smelting_sword as it's serializer returned null
+[30Aug2022 02:40:07.315] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe delightful:knives/blasting/copper_immersiveengineering as it's serializer returned null
+[30Aug2022 02:40:07.325] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[30Aug2022 02:40:07.377] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 7 modifier groups
+[30Aug2022 02:40:10.803] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier named 'savage_and_ravage:adventure/voluntary_exile' as its conditions were not met
+[30Aug2022 02:40:10.803] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Skipped modifier named 'savage_and_ravage:adventure/voluntary_exile' as its conditions were not met
+[30Aug2022 02:40:10.824] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 9 modifier groups
+[30Aug2022 02:40:11.077] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement delightful:recipes/cooking/animal_oil_bottle: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.119] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement delightful:recipes/food/cooking/glow_jelly_bottle: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.238] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement delightful:recipes/food/cooking/nut_butter_bottle: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.252] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement delightful:recipes/food/cooking/jelly_bottle: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.331] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement delightful:recipes/food/cooking/ender_nectar: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.345] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement ecologics:recipes/tropical_stew: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.392] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement delightful:recipes/food/azalea_tea: Missing advancement, expected to find a JsonObject
+[30Aug2022 02:40:11.606] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4635 advancements
+[30Aug2022 02:40:11.708] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 8 tool_handle_types
+[30Aug2022 02:40:11.709] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 37 snowcap_oven_freezing_recipes
+[30Aug2022 02:40:11.709] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 horizonite_forge_fuels
+[30Aug2022 02:40:11.709] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 12 snowcap_mushroom_freezing
+[30Aug2022 02:40:11.732] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 70 alchemy_recipes
+[30Aug2022 02:40:11.734] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 81 journal/entries
+[30Aug2022 02:40:11.734] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 3 journal/sections
+[30Aug2022 02:40:11.735] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 journal/requirements
+[30Aug2022 02:40:11.868] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "ibarnorigins:sandman_attributes" will only be partially loaded: Failed to read fields: At ParticleType: JsonObject
+[30Aug2022 02:40:11.923] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:enderian
+[30Aug2022 02:40:11.925] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from origins:feline
+[30Aug2022 02:40:11.925] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:elytrian
+[30Aug2022 02:40:11.925] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 2 missing powers from ibarnorigins:sandman
+[30Aug2022 02:40:11.925] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:shulk
+[30Aug2022 02:40:11.925] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from ibarnorigins:wither_phantom
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from origins:merling
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from origins:phantom
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 4 missing powers from origins:arachnid
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from origins:blazeborn
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:avian
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from ibarnorigins:ghaster
+[30Aug2022 02:40:11.926] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from ibarnorigins:soul_wizard
+[30Aug2022 02:40:11.966] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[30Aug2022 02:40:11.967] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[30Aug2022 02:40:11.983] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[30Aug2022 02:40:12.011] [main/INFO] [minecolonies/]: Loaded 131 recipes for 15 crafters
+[30Aug2022 02:40:12.011] [main/INFO] [minecolonies/]: Beginning load of research for University.
+[30Aug2022 02:40:12.108] [main/INFO] [minecolonies/]: Loaded 191 recipes for 4 research branches
+[30Aug2022 02:40:12.117] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Loaded  8 flute songs
+[30Aug2022 02:40:31.811] [main/WARN] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Error white registering dispenser behavior for item medium_catfish_bucket: java.lang.IllegalArgumentException: value already present: alexsmobs:catfish
+[30Aug2022 02:40:31.813] [main/WARN] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Error white registering dispenser behavior for item large_catfish_bucket: java.lang.IllegalArgumentException: value already present: alexsmobs:catfish
+[30Aug2022 02:40:31.896] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished additional setup in 0 seconds
+[30Aug2022 02:40:31.904] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: Failed to parse level-type default, defaulting to minecraft:normal
+[30Aug2022 02:40:32.166] [main/INFO] [mixin/]: Mixing server.MixinServerStatus from nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[30Aug2022 02:40:32.216] [main/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/nether-biomes.json5" was read.
+[30Aug2022 02:40:32.224] [main/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/end-biomes.json5" was read.
+[30Aug2022 02:40:32.274] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[30Aug2022 02:40:32.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Aug2022 02:40:32.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Aug2022 02:40:32.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Aug2022 02:40:32.528] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 162.33.21.28:25628
+[30Aug2022 02:40:32.591] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Aug2022 02:40:32.856] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Aug2022 02:40:32.859] [Server thread/INFO] [Puzzles Lib/]: Loading server config for tradingpost
+[30Aug2022 02:40:32.860] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[30Aug2022 02:40:32.867] [Server thread/INFO] [Puzzles Lib/]: Loading server config for magnumtorch
+[30Aug2022 02:40:32.912] [Thread-0/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
+[30Aug2022 02:40:44.652] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/nitwit
+[30Aug2022 02:40:44.652] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.653] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.653] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.653] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.653] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.653] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.654] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.654] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.654] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.654] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/oak/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/oak/zombie/villagers/unemployed
+[30Aug2022 02:40:44.655] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/nitwit
+[30Aug2022 02:40:44.655] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.655] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.655] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:44.656] [Server thread/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: (Repurposed Structures POOL MERGER) Found an entry in repurposed_structures:villages/birch/zombie/villagers that points to the non-existent nbt file called repurposed_structures:villages/birch/zombie/villagers/unemployed
+[30Aug2022 02:40:45.734] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[30Aug2022 02:40:45.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world 2"
+[30Aug2022 02:40:46.612] [Server thread/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[30Aug2022 02:40:46.620] [Server thread/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/end_surface_rules.json5" was read.
+[30Aug2022 02:40:46.624] [Server thread/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[30Aug2022 02:40:46.702] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_nether" with biome source: "blueprint:modded".
+[30Aug2022 02:40:46.703] [Server thread/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[30Aug2022 02:40:46.707] [Server thread/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/end_surface_rules.json5" was read.
+[30Aug2022 02:40:46.709] [Server thread/INFO] [potionstudios.byg.BYG/]: "/home/mch/multicraft/servers/server203832/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[30Aug2022 02:40:46.729] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_end" with biome source: "blueprint:modded".
+[30Aug2022 02:40:46.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Aug2022 02:40:55.698] [Worker-Main-23/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:55.799] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:55.804] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:55.816] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:55.881] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:55.965] [Worker-Main-27/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:55.976] [Worker-Main-31/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.040] [Worker-Main-31/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.073] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.215] [Worker-Main-24/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.259] [Worker-Main-23/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.309] [Worker-Main-25/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.318] [Worker-Main-30/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.340] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.369] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.370] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.386] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.408] [Worker-Main-28/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.421] [Worker-Main-30/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.429] [Worker-Main-30/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:56.733] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Aug2022 02:40:57.233] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[30Aug2022 02:40:57.734] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[30Aug2022 02:40:58.232] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[30Aug2022 02:40:58.563] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11831 ms
+[30Aug2022 02:40:58.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (25.740s)! For help, type "help"
+[30Aug2022 02:40:58.618] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Aug2022 02:40:58.618] [Server thread/INFO] [corail_woodcutter/]: 379 woodcutting recipes loaded
+[30Aug2022 02:41:34.082] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 87343 bytes (in 9 string chunks with the size of 10000)
+[30Aug2022 02:41:34.272] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 80
+[30Aug2022 02:41:34.274] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 52 52
+[30Aug2022 02:41:34.274] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[30Aug2022 02:41:34.288] [Server thread/INFO] [minecolonies/]: Finished discovering food 185 224
+[30Aug2022 02:41:34.340] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 1972
+[30Aug2022 02:41:34.342] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 592
+[30Aug2022 02:41:34.342] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 175
+[30Aug2022 02:41:34.342] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[30Aug2022 02:41:34.343] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[30Aug2022 02:41:34.460] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[30Aug2022 02:48:21.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 02:48:21.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 02:48:21.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 02:58:26.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 02:58:26.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 02:58:26.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 03:08:32.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 03:08:32.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 03:08:32.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 03:18:38.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 03:18:38.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 03:18:38.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 03:28:44.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 03:28:44.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 03:28:44.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 03:38:49.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 03:38:49.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 03:38:49.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 03:39:56.181] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[30Aug2022 03:48:55.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 03:48:55.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 03:48:55.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 03:59:01.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 03:59:01.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 03:59:01.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 04:09:07.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 04:09:07.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 04:09:07.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 04:19:12.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 04:19:12.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 04:19:12.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 04:29:18.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 04:29:18.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 04:29:18.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 04:39:24.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 04:39:24.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 04:39:24.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 04:49:30.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 04:49:30.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 04:49:30.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 04:59:35.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 04:59:35.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 04:59:35.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 05:09:41.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 05:09:41.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 05:09:41.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 05:19:47.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 05:19:47.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 05:19:47.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 05:29:53.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 05:29:53.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 05:29:53.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 05:39:58.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 05:39:58.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 05:39:58.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 05:50:04.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 05:50:04.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 05:50:04.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 06:00:10.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 06:00:10.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 06:00:10.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 06:10:16.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 06:10:16.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 06:10:16.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 06:20:21.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 06:20:21.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 06:20:21.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 06:30:27.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 06:30:27.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 06:30:27.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 06:40:33.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 06:40:33.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 06:40:33.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 06:50:39.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 06:50:39.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 06:50:39.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 07:00:44.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 07:00:44.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 07:00:44.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 07:10:50.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 07:10:50.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 07:10:50.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 07:20:56.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 07:20:56.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 07:20:56.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 07:31:02.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 07:31:02.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 07:31:02.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 07:41:07.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 07:41:07.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 07:41:07.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 07:51:13.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 07:51:13.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 07:51:13.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 08:01:19.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 08:01:19.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 08:01:19.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 08:11:25.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 08:11:25.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 08:11:25.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 08:21:30.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 08:21:30.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 08:21:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 08:31:36.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 08:31:36.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 08:31:36.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 08:41:42.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 08:41:42.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 08:41:42.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 08:51:48.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 08:51:48.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 08:51:48.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 09:01:53.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 09:01:53.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 09:01:53.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 09:11:59.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 09:11:59.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 09:11:59.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 09:22:05.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 09:22:05.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 09:22:05.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 09:32:11.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 09:32:11.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 09:32:11.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 09:42:16.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 09:42:16.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 09:42:16.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 09:52:22.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 09:52:22.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 09:52:22.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 10:02:28.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 10:02:28.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 10:02:28.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 10:12:34.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 10:12:34.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 10:12:34.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 10:22:39.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 10:22:39.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 10:22:39.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 10:32:45.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 10:32:45.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 10:32:45.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 10:42:51.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 10:42:51.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 10:42:51.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 10:52:57.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 10:52:57.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 10:52:57.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 11:03:02.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 11:03:02.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 11:03:02.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 11:05:42.351] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Beodrengen is 938934fd-5f12-40e2-bdc4-fbc6ad18080e
+[30Aug2022 11:05:42.571] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[30Aug2022 11:05:42.581] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[30Aug2022 11:05:42.582] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[30Aug2022 11:05:42.609] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[30Aug2022 11:05:42.704] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[30Aug2022 11:05:42.721] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[30Aug2022 11:05:42.902] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[30Aug2022 11:05:42.903] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[30Aug2022 11:05:42.904] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[30Aug2022 11:05:42.916] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[30Aug2022 11:05:42.977] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[30Aug2022 11:05:43.014] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[30Aug2022 11:05:43.059] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[30Aug2022 11:05:43.279] [Netty Epoll Server IO #13/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[30Aug2022 11:05:54.358] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7a75a5ac
+[30Aug2022 11:05:54.412] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_seeing] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:05:54.412] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_eating] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:05:54.427] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Beodrengen[/212.237.97.216:38631] logged in with entity id 50 at (1277.757937234264, 68.05108247671723, -367.59186227133665)
+[30Aug2022 11:05:54.474] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Beodrengen
+[30Aug2022 11:05:54.475] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Beodrengen
+[30Aug2022 11:05:54.476] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Beodrengen
+[30Aug2022 11:05:54.476] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Beodrengen
+[30Aug2022 11:05:54.481] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Beodrengen
+[30Aug2022 11:05:54.484] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Beodrengen
+[30Aug2022 11:05:54.485] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Beodrengen
+[30Aug2022 11:05:54.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen joined the game
+[30Aug2022 11:05:54.753] [Server thread/INFO] [Jade/]: Syncing config to Beodrengen (938934fd-5f12-40e2-bdc4-fbc6ad18080e)
+[30Aug2022 11:05:54.757] [Server thread/INFO] [structurize/]: New Server UUID 5613e5c6-6bbc-47a7-b9c3-38850c82aa8b
+[30Aug2022 11:05:57.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3153ms or 63 ticks behind
+[30Aug2022 11:05:57.823] [Structurize IO Worker #0/ERROR] [structurize/]: Error loading blueprint: 
+java.io.FileNotFoundException: null
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at cpw.mods.niofs.union.UnionFileSystem.newReadByteChannel(UnionFileSystem.java:308) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.niofs.union.UnionFileSystemProvider.newByteChannel(UnionFileSystemProvider.java:149) ~[securejarhandler-2.1.4.jar:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3288) ~[?:?]
+	at com.ldtteam.structurize.storage.StructurePacks.getBlueprint(StructurePacks.java:385) ~[structurize-1.19.2-1.0.437-ALPHA.jar%23194!/:1.19.2-1.0.437-ALPHA]
+	at com.ldtteam.structurize.storage.StructurePacks.getBlueprint(StructurePacks.java:372) ~[structurize-1.19.2-1.0.437-ALPHA.jar%23194!/:1.19.2-1.0.437-ALPHA]
+	at com.ldtteam.structurize.storage.StructurePacks.lambda$getBlueprintFuture$0(StructurePacks.java:130) ~[structurize-1.19.2-1.0.437-ALPHA.jar%23194!/:1.19.2-1.0.437-ALPHA]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[30Aug2022 11:08:32.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:08:33.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:09:59.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set own game mode to Survival Mode]
+[30Aug2022 11:10:14.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set own game mode to Creative Mode]
+[30Aug2022 11:11:44.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 13000]
+[30Aug2022 11:12:00.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:13:08.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 11:13:08.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 11:13:08.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 11:14:13.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:14:15.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:15:03.531] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Beodrengen lost connection: Disconnected
+[30Aug2022 11:15:03.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen left the game
+[30Aug2022 11:17:16.286] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Beodrengen is 938934fd-5f12-40e2-bdc4-fbc6ad18080e
+[30Aug2022 11:17:16.443] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[30Aug2022 11:17:16.459] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[30Aug2022 11:17:16.506] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[30Aug2022 11:17:16.559] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[30Aug2022 11:17:16.634] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[30Aug2022 11:17:16.656] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[30Aug2022 11:17:16.844] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[30Aug2022 11:17:16.845] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[30Aug2022 11:17:16.846] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[30Aug2022 11:17:16.862] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[30Aug2022 11:17:16.915] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[30Aug2022 11:17:16.966] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[30Aug2022 11:17:17.026] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[30Aug2022 11:17:17.234] [Netty Epoll Server IO #15/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[30Aug2022 11:17:28.125] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@58bc491b
+[30Aug2022 11:17:28.144] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_seeing] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:17:28.145] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_eating] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:17:28.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Beodrengen[/212.237.97.216:4084] logged in with entity id 2435 at (1181.7404897573285, 87.1282922035891, -400.71196190200686)
+[30Aug2022 11:17:28.170] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Beodrengen
+[30Aug2022 11:17:28.170] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Beodrengen
+[30Aug2022 11:17:28.170] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Beodrengen
+[30Aug2022 11:17:28.170] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Beodrengen
+[30Aug2022 11:17:28.173] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Beodrengen
+[30Aug2022 11:17:28.176] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Beodrengen
+[30Aug2022 11:17:28.176] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Beodrengen
+[30Aug2022 11:17:28.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen joined the game
+[30Aug2022 11:17:28.248] [Server thread/INFO] [Jade/]: Syncing config to Beodrengen (938934fd-5f12-40e2-bdc4-fbc6ad18080e)
+[30Aug2022 11:17:30.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
+[30Aug2022 11:17:56.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:17:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:20:02.467] [Server thread/INFO] [minecolonies/]: Colony 1 - new AbstractBuilding for class net.minecraft.world.level.block.state.BlockState at BlockPos{x=1180, y=67, z=-359}
+[30Aug2022 11:20:34.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Beodrengen moved too quickly! -10.587880175891996,0.0,-0.1980616761890701
+[30Aug2022 11:20:34.713] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2748ms or 54 ticks behind
+[30Aug2022 11:23:13.905] [Server thread/WARN] [ht.treechop.TreeChopMod/]: Max tree size reached: 320 >= 320 blocks (not including leaves)
+[30Aug2022 11:23:14.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 11:23:14.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 11:23:14.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 11:26:38.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Removed 27 items from player Beodrengen]
+[30Aug2022 11:27:14.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:27:24.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:31:13.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Beodrengen moved too quickly! 4.406283395727996,5.9905550633827716,6.93831391402108
+[30Aug2022 11:33:03.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:33:20.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 11:33:20.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 11:33:20.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 11:33:21.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:38:58.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:38:59.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:41:44.985] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2574ms or 51 ticks behind
+[30Aug2022 11:41:55.830] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Beodrengen lost connection: Disconnected
+[30Aug2022 11:41:55.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen left the game
+[30Aug2022 11:43:25.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving is already turned on
+[30Aug2022 11:43:25.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[30Aug2022 11:43:25.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[30Aug2022 11:43:44.225] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Beodrengen is 938934fd-5f12-40e2-bdc4-fbc6ad18080e
+[30Aug2022 11:43:44.390] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[30Aug2022 11:43:44.404] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[30Aug2022 11:43:44.462] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[30Aug2022 11:43:44.514] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[30Aug2022 11:43:44.583] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[30Aug2022 11:43:44.609] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[30Aug2022 11:43:44.782] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[30Aug2022 11:43:44.782] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[30Aug2022 11:43:44.782] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[30Aug2022 11:43:44.816] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[30Aug2022 11:43:44.856] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[30Aug2022 11:43:44.939] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[30Aug2022 11:43:44.974] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[30Aug2022 11:43:45.165] [Netty Epoll Server IO #18/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[30Aug2022 11:43:55.576] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2b62a2cd
+[30Aug2022 11:43:55.596] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_seeing] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:43:55.596] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_eating] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:43:55.599] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Beodrengen[/212.237.97.216:37092] logged in with entity id 8881 at (1177.316495271936, 71.91026834426457, -397.51379539362324)
+[30Aug2022 11:43:55.615] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Beodrengen
+[30Aug2022 11:43:55.615] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Beodrengen
+[30Aug2022 11:43:55.615] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Beodrengen
+[30Aug2022 11:43:55.615] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Beodrengen
+[30Aug2022 11:43:55.618] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Beodrengen
+[30Aug2022 11:43:55.622] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Beodrengen
+[30Aug2022 11:43:55.622] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Beodrengen
+[30Aug2022 11:43:55.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen joined the game
+[30Aug2022 11:43:55.692] [Server thread/INFO] [Jade/]: Syncing config to Beodrengen (938934fd-5f12-40e2-bdc4-fbc6ad18080e)
+[30Aug2022 11:43:57.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
+[30Aug2022 11:44:14.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the time to 1000]
+[30Aug2022 11:44:16.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Beodrengen: Set the weather to clear]
+[30Aug2022 11:48:30.732] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Beodrengen lost connection: Disconnected
+[30Aug2022 11:48:30.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen left the game
+[30Aug2022 11:50:15.906] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Beodrengen is 938934fd-5f12-40e2-bdc4-fbc6ad18080e
+[30Aug2022 11:50:16.036] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[30Aug2022 11:50:16.062] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[30Aug2022 11:50:16.106] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[30Aug2022 11:50:16.162] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[30Aug2022 11:50:16.233] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[30Aug2022 11:50:16.258] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[30Aug2022 11:50:16.418] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[30Aug2022 11:50:16.419] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[30Aug2022 11:50:16.419] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[30Aug2022 11:50:16.457] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[30Aug2022 11:50:16.506] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[30Aug2022 11:50:16.556] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[30Aug2022 11:50:16.609] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[30Aug2022 11:50:16.797] [Netty Epoll Server IO #20/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[30Aug2022 11:50:27.722] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6e1fd05c
+[30Aug2022 11:50:27.737] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_seeing] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:50:27.738] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / origins:pumpkin_hate_prevent_eating] from power ResourceKey[apoli:configured_power / origins:pumpkin_hate]
+[30Aug2022 11:50:27.740] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Beodrengen[/212.237.97.216:7492] logged in with entity id 10099 at (1186.2322039574974, 78.66600476206477, -406.15253069305373)
+[30Aug2022 11:50:27.757] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Beodrengen
+[30Aug2022 11:50:27.757] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Beodrengen
+[30Aug2022 11:50:27.758] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Beodrengen
+[30Aug2022 11:50:27.758] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Beodrengen
+[30Aug2022 11:50:27.761] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Beodrengen
+[30Aug2022 11:50:27.764] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Beodrengen
+[30Aug2022 11:50:27.764] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Beodrengen
+[30Aug2022 11:50:27.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Beodrengen joined the game
+[30Aug2022 11:50:27.815] [Server thread/INFO] [Jade/]: Syncing config to Beodrengen (938934fd-5f12-40e2-bdc4-fbc6ad18080e)
